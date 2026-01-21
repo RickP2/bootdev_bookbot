@@ -13,6 +13,6 @@ def letter_count(book_selected):
         return dict_key[1]
     
     sorted_counts = sorted(counts.items(),reverse=True, key=sort_counts)
-    print(f"{counts}\n")
+    return sorted_counts
 
 
